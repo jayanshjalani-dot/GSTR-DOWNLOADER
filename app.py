@@ -33,7 +33,7 @@ WHATSAPP_NUMBER = "917742028168"
 PRODUCT_NAME    = "CA Automation Suite"
 
 # These come from st.secrets → set them in Streamlit Cloud → Settings → Secrets
-APPS_SCRIPT_URL = https://script.google.com/macros/s/AKfycbwjeE5A4nSLptq8rstuP6yi3M9CuwE3qs2NWEtcqjO4ayeTYUdjwHUe1HHcli6wAaJJ/exec
+APPS_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbwjeE5A4nSLptq8rstuP6yi3M9CuwE3qs2NWEtcqjO4ayeTYUdjwHUe1HHcli6wAaJJ/exec"
 SHEET_NAME      = st.secrets.get("SHEET_NAME", "CA Automation Suite — Leads")
 
 # ── Server-side Google Sheets save (Python, no JS needed) ────────────────────
